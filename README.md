@@ -23,6 +23,14 @@
 
 ![gif](https://github.com/naimtahouri/gif-project/blob/master/recipe-gif-desktop.gif?raw=true)
 
+### 📱 Format tablette :
+
+![gif](https://github.com/naimtahouri/gif-project/blob/master/recipes-gif-tablette.gif?raw=true)
+
+### 📲 Format mobile : 
+
+![gif](https://github.com/naimtahouri/gif-project/blob/master/recipes-gif-mobile.gif?raw=true)
+
 ## Projet en construction 
 
 ## 📚À venir sur le projet :
