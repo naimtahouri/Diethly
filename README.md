@@ -16,3 +16,16 @@
 ##### - NodeJS
 ##### - VisualCode ou un autre éditeur de code
 ##### - Connaître l'environnement ReactJS
+
+
+## Projet en construction 
+
+## 📚À venir sur le projet :
+
+#### - De véritable recettes
+#### - Random d'une citation dans le composant Advices
+#### - Random de deux recettes dans le composant Discover
+#### - Select option qui proposeras un filtre par "catégorie", "calories" ou "coût"
+#### - Notes en pourcentages des utilisateurs sur chaque carte de films
+#### - Ajouts d'un espace pour s'inscrire et se connecter avec un système de tokens
+#### - Amélioration du style, je le rendrais plus fluide (comme toujours 😏)
