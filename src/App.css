@@ -1,33 +1,241 @@
-.App {
+/* BASE INIT */
+
+.body{
+  margin:0;
+  transition: all 0.5s;
+}
+
+.container-fluid{
+  height:100vh;
+  margin:0;
+  padding: 0;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.banniere-home{
+  width:1600px;
+  height:300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ./BASE INIT */
+
+/* NAVBAR */
+
+.nav-bar{
+  display:flex;
+  background-color:#99CA3C;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding:5px;
+}
+
+.nav-brand{
+  color:white;
+  font-style:italic;
+  font-weight: bold;
+  padding:2px;
+  margin-left:14px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size:45px;
+}
+
+.box-navlink{
+  display:flex;
+  margin-top:5px;
+}
+
+.link-item{
+  color:white;
+  display: flex;
+  margin-top:22px;
+  margin-left:15px;
+  transition: 0.5s;
+  font-size:1.1em;
+  font-family: 'Comfortaa', cursive;
+
+}
+
+.link-item:hover{
+  text-decoration: underline;
+  color:white;
+}
+
+/*./ NAVBAR */
+
+/* CARD */
+
+.img-recette{
+  width:100vw;
+  border-radius: 2%;
+  transition: all 0.7s;
+  opacity: 0.7;
+}
+
+.img-recette:hover{
+  opacity: 1;
+}
+
+.box-card{
+  /* background: green; */
+  margin:20px;
+  padding: 10px;
+  height:80%;
+  transition-duration: 0.7s;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+.box-title{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:60%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-recipe{
+  font-family: 'Shadows Into Light', cursive;
 }
+
+.box-pouces{
+  display:flex;
+  height:20%;
+  justify-content: space-around;
+  padding: 10px;
+  margin:5px;
+}
+
+.pouce-rouge{
+  width:45px;
+  height:45px;
+  margin:5px;
+  transition: 0.4s;
+}
+.pouce-rouge:hover{
+  transform: scale(1.2);
+}
+
+.pouce-vert{
+  widows:35px;
+  height:35px;
+  margin:5px;
+  transition: 0.4s;
+}
+
+.pouce-vert:hover{
+  transform: scale(1.2);
+}
+
+h1{
+  font-size:36px;
+  font-weight:bold;
+}
+
+h2{
+  font-size:18px;
+  font-style: italic;
+  font-weight:bold;
+  color: #99CA3C;
+}
+
+.box-rate{
+  /* background: red; */
+  display:flex;
+  height:10%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.coeur-like{
+  width:40px;
+  height:40px;
+  margin-top:-10px;
+  transition: 0.6s;
+}
+
+.coeur-like:hover{
+  transform: scale(1.2);
+}
+.coeur-like:active{
+  transform: scale(0.1);
+}
+
+.barre-dislikes{
+  height:5px;
+  background-color: red;
+  width:100%;
+  margin:10px;
+}
+
+.barre-likes{
+  height:5px;
+  background-color: #99CA3C;
+  width:80%;
+}
+
+/* ./CARD */
+
+/* CARD LIKE */
+
+.coeur-brise{
+  width:50px;
+  height:50px;
+  transition: 0.6s;
+}
+
+.coeur-brise:hover{
+  transform: scale(1.2);
+}
+
+.coeur-brise:active{
+  transform: scale(0.1);
+}
+
+/* ./CARD LIKE */
+
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width: 768px) {
+  .nav-bar{
+    display:flex;
+    background-color:#99CA3C;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .brand-box{
+    display: flex;
+    height:100%;
+  }
+
+  .nav-brand{
+    color:white;
+    font-style:italic;
+    font-weight: bold;
+    font-size:90px;
+    margin:5px;
+  }
+
+  .link-item{
+    color:white;
+    display: flex;
+    margin:10px;
+    font-size:1em;
+    transition: 0.5s;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  .link-item:hover{
+    color:white;
+    display: flex;
+    margin:10px;
+    transform: scale(1.2)
+    
+  }
+
+}
+
+/*  ./NEDIA QUERIES */
