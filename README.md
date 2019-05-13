@@ -4,10 +4,17 @@
 
 ### Ce projet a pour but de répertorier mes recettes de salades idéale pour un réequilibrage alimentaire pour un corps sain et parfait pour l'été
 
+### ✅ Comment ça marche :
+#### - Clonez le dossier 
+#### - Installer NodeJS
+#### - Faire npm i à la racine du dossier
+#### - Faire npm start 
+#### - Enjoy!
+
 #### Ces recettes sont affichée sous formes de différentes sections :
 - Home (Cette section à pour but de lister toutes les recettes sous forme de feed
 - Découvrir (Cette section random deux recettes à chaque refresh de page)
-- Favoris (Cette section est reliée aux sections citée plus haut. Elle permet à l'utilisateur de répertorier ces recettes favorites)
+- Favoris (Cette section est reliée aux sections citée plus haut. Elle permet à l'utilisateur de répertorier ces recettes favorites et de les supprimer)
 - Conseil du jour (Cette section random un conseil pour perdre du poids)
 
 
