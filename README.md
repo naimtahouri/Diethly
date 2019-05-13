@@ -17,6 +17,11 @@
 ##### - VisualCode ou un autre éditeur de code
 ##### - Connaître l'environnement ReactJS
 
+## Aperçu du visuel du projet responsive:
+
+### 🖥 Format desktop : 
+
+![gif](https://github.com/naimtahouri/gif-project/blob/master/recipe-gif-desktop.gif?raw=true)
 
 ## Projet en construction 
 
