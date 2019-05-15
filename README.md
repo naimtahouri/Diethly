@@ -21,7 +21,7 @@
 ## 📌 Faire le projet vous même 
 #### vous aurez besoin de :
 ##### - NodeJS
-##### - VisualCode ou un autre éditeur de code
+##### - VisualCode ou un autre éditeur
 ##### - Connaître l'environnement ReactJS
 
 ## Aperçu du visuel du projet responsive:
