@@ -2,7 +2,7 @@
 
 ## ☁️ Inspiration personnelle !
 
-### Ce projet a pour but de répertorier mes recettes de salades idéale pour un réequilibrage alimentaire pour un corps sain et parfait pour l'été
+### Ce projet a pour but de répertorier mes recettes de salades idéale pour un réequilibrage alimentaire afin d'avoir un corps sain et parfait pour l'été
 
 ### ✅ Comment ça marche :
 #### - Clonez le dossier 
